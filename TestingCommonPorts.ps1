@@ -1,4 +1,6 @@
-﻿$Servers = @(
+# Cheat Sheet for Common Ports: https://www.stationx.net/common-ports-cheat-sheet/
+
+$Servers = @(
     'google.com',
     'cnn.com'
     )
