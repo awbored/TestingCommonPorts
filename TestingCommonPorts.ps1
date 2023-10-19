@@ -93,3 +93,5 @@ ForEach($Server in $Servers){
         $Results += Test-NetConnection -ComputerName $Server -Port $Port
         }
     }
+
+$Results | Where-Object TcpTestSucceeded -eq $true | Out-GridView
